@@ -2,7 +2,7 @@
   "name": "node-api",
   "version": "1.0.0",
   "description": "a simple node.js api",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,5 +10,8 @@
     "nodejs"
   ],
   "author": "sajith n silva",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
